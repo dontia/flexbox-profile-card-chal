@@ -9,7 +9,8 @@ header,
 article,
 footer {
   background: #F5C4C4;
-  /* Add Flexbox properties to create parent flex containers and to center the content-wrapper */
+  display: flex;
+  justify-content: center;
 }
 
 .content-wrapper {
