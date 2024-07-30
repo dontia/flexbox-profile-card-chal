@@ -82,7 +82,7 @@ footer .content-wrapper {
 @media (min-width: 768px) {
 
   header .content-wrapper {
-    /* Add Flexbox properties to move the h1 to the left at the start of the content-wrapper */
+    justify-content: flex-start;
   }
 
   article .content-wrapper {
