@@ -24,7 +24,8 @@ header {
 }
 
 header .content-wrapper {
-  /* Add Flexbox properties to make the "content-wrapper" a parent flex container and to center the h1 on a mobile site */
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
