@@ -86,7 +86,8 @@ footer .content-wrapper {
   }
 
   article .content-wrapper {
-    /* Add Flexbox properties so that the extra space in the content-wrapper is around the child items and align them at their centers */
+    justify-content: space-around;
+    align-items: center;
   }
 
   .profile-image-container {
