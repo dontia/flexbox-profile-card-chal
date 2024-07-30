@@ -75,7 +75,8 @@ footer {
 }
 
 footer .content-wrapper {
-  /* Add Flexbox properties to make the "content-wrapper" a parent flex container and to center the copyright */
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
