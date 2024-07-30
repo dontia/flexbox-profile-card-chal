@@ -42,7 +42,9 @@ h2 {
 /* Main styles */
 
 article .content-wrapper {
-  /* Add Flexbox properties to center the elements and cause them to wrap so that the image is above the text. */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background: rgba(252, 240, 240, 0.2);
   padding: 70px 0;
   border-radius: 20px;
